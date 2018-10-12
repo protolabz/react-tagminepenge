@@ -1,0 +1,89 @@
+/*fonts*/
+/*colors*/
+/*text*/
+/*backgrounds*/
+/*border*/
+/*social*/
+.product-pitch {
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+  .product-pitch .content .item .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px; }
+  .product-pitch .content .item.get-started {
+    padding: 50px; }
+    .product-pitch .content .item.get-started .description {
+      width: 50%;
+      margin: 10px auto 20px auto;
+      font-size: 18px;
+      font-weight: 300; }
+  .product-pitch .content .item.working {
+    padding: 20px;
+    background-color: #ececec; }
+    .product-pitch .content .item.working .container {
+      width: 1200px;
+      margin: auto; }
+    .product-pitch .content .item.working .title {
+      color: #5b5b5b;
+      font-weight: bold;
+      font-size: 28px;
+      margin-bottom: 10px; }
+    .product-pitch .content .item.working .sub-item {
+      padding: 20px; }
+      .product-pitch .content .item.working .sub-item .label {
+        font-size: 18px;
+        color: #5b5b5b;
+        margin: 20px 0px;
+        display: block; }
+      .product-pitch .content .item.working .sub-item .description {
+        font-size: 18px; }
+  .product-pitch .content .item.preview {
+    padding: 50px; }
+    .product-pitch .content .item.preview img {
+      width: 500px; }
+    .product-pitch .content .item.preview .description {
+      width: 50%;
+      margin: 10px auto 20px auto;
+      font-size: 18px;
+      font-weight: 300; }
+  .product-pitch .content .item.stats {
+    padding: 20px 20px 30px 20px;
+    background-color: #ececec; }
+    .product-pitch .content .item.stats .title {
+      color: #5b5b5b;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 25px; }
+    .product-pitch .content .item.stats .value {
+      color: #77b353;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: -2px; }
+    .product-pitch .content .item.stats .text {
+      font-size: 18px;
+      font-weight: 300; }
+  .product-pitch .content .item.testimonials {
+    padding: 20px;
+    border-bottom: 1px solid #e9e9e9; }
+    .product-pitch .content .item.testimonials .title {
+      color: #77b353;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 25px; }
+    .product-pitch .content .item.testimonials button {
+      margin-top: 20px; }
+  .product-pitch .content .item.faqs {
+    padding: 20px;
+    text-align: left; }
+    .product-pitch .content .item.faqs .title {
+      text-align: center;
+      margin-bottom: 20px; }
+  .product-pitch .content .item img {
+    width: 100px;
+    display: block;
+    margin: auto; }
+
+/*# sourceMappingURL=style.css.map */

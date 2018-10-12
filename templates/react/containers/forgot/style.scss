@@ -1,0 +1,40 @@
+@import '../../../../public/styles/variables';
+
+.join{
+  .modal-header{
+	padding:10px 15px 0px 15px;
+	border:none;
+  }
+  .modal-body{
+	overflow:hidden;
+	padding-bottom:20px;
+	label{
+	  font-family: $helvetica-font;
+	}
+	.secondary-action{
+	  float: left;
+	  font-family: $helvetica-font;
+	  a{
+		display:block;
+		&.inline-block{
+		  display: inline-block;
+		}
+	  }
+	}
+	.submit-btn{
+	  float:right;
+	}
+	.actions{
+	  margin-top: 20px;
+	  .forgot-password{
+		margin-bottom: 15px;
+		color:$brand-black;
+	  }
+	  a{
+		&:hover{
+		  color: $primary-color;
+		}
+	  }
+	}
+  }
+}

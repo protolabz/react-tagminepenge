@@ -1,0 +1,30 @@
+@import '../../../../public/styles/variables.scss';
+
+.privacy-policy{
+  .details{
+	padding-top: 30px;
+	h2.title{
+	  text-align: center;
+	}
+	.row{
+	  .image-box{
+		.image{
+		  display:block;
+		  width:100%;
+		  height:300px;
+		  background: $thumbnail-bg;
+		}
+	  }
+	  .text{
+		font-family: $helvetica-font;
+		line-height: 26px;
+		p.website{
+		  text-align: center;
+		}
+	  }
+	  &.one{
+		margin-bottom: 70px;
+	  }
+	}
+  }
+}

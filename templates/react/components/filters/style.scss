@@ -1,0 +1,26 @@
+.filters{
+	padding: 20px 25px;
+	padding: 8px 6px !important;
+  ul{
+	padding-left: 4px;
+	li{
+	  display: inline-block;
+	  margin-right: 5px;
+	  
+	  a{
+		display: block;
+		padding:5px 10px;
+		font-size:18px;
+		color: rgb(65, 104, 255);
+		border-radius: 4px;
+		font-weight: bold;
+	  }
+	  &.active{
+		a{
+		  background: #416dff;
+		  color:#fff;
+		}
+	  }
+	}
+  }
+}

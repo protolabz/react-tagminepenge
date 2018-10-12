@@ -1,0 +1,13 @@
+.profile .form {
+  padding: 50px; }
+  .profile .form .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .profile .form .direction {
+    font-weight: 300; }
+  .profile .form form {
+    width: 60%;
+    margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

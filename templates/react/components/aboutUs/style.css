@@ -1,0 +1,25 @@
+/*fonts*/
+/*colors*/
+/*text*/
+/*backgrounds*/
+/*border*/
+/*social*/
+.about-us .container.title {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px; }
+.about-us .details {
+  padding-top: 50px; }
+  .about-us .details .row .image-box .image {
+    display: block;
+    width: 95%;
+    height: 240px;
+    background: #e6e6e6;
+    background-size: cover; }
+  .about-us .details .row .text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26px; }
+  .about-us .details .row.one {
+    margin-bottom: 70px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+@import '../../../../public/styles/variables.scss';
+
+.wish-list{
+  padding-top:70px;
+  .heading{
+	overflow: hidden;
+	margin-bottom: 80px;
+	.title{
+	  font-size: 30px;
+	  text-align: center;
+	  background: linear-gradient(to bottom, #E77471 0, #862000 100%);
+	  color: #FFFFFF;
+	  width: 250px;
+	  margin: auto;
+	  border-radius: 6px;
+	}
+	.share{
+	  float:right;
+	  display: flex;
+	  padding-right: 32px;
+	  ul{
+		li{
+		  display:inline-block;
+		  a{
+			display:block;
+			font-size: 40px;
+			margin:5px 5px 0px 0px;
+			line-height: 0px;
+			&.facebook{
+			  color: #3c5a98;
+			}
+			&.twitter{
+			  color: #1ea1f2;
+			}
+			&.pinterest{
+			  color: #bd081b;
+			}
+			&.link{
+			  color: #555;
+			}
+		  }
+		}
+	  }
+	}
+  }
+  .more {
+	.row {
+	  margin: 0px;
+	  .column {
+		padding: 0px;
+		.container {
+		  width: 100%;
+		}
+		.banner {
+		  margin: 27px 10px 10px 10px;
+		}
+		&.left {
+		  .banner {
+			margin-right: 0px;
+		  }
+		}
+		&.right {
+		  .banner {
+			margin-left: 0px;
+		  }
+		}
+	  }
+	}
+  }
+}
+
+/* responsiveness */
+
+@media (max-width: 1200px) {
+  .more .row .column.left{
+	display: none;
+  }
+  .more .row .column.right{
+	display: none;
+  }
+}
+/* /responsiveness */

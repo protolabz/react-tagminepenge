@@ -1,0 +1,61 @@
+/*fonts*/
+/*colors*/
+/*text*/
+/*backgrounds*/
+/*border*/
+/*social*/
+.wish-list {
+  padding-top: 70px; }
+  .wish-list .heading {
+    overflow: hidden;
+    margin-bottom: 80px; }
+    .wish-list .heading .title {
+      font-size: 32px;
+      text-align: center;
+      background: linear-gradient(to bottom, #DC381F 0, #DC381F 100%);
+      color: #FFFFFF;
+      width: 200px;
+      margin: auto;
+      border-radius: 6px; }
+    .wish-list .heading .share {
+      float: right;
+      display: flex;
+      padding-right: 32px; }
+      .wish-list .heading .share ul li {
+        display: inline-block; }
+        .wish-list .heading .share ul li a {
+          display: block;
+          font-size: 40px;
+          margin: 5px 5px 0px 0px;
+          line-height: 0px; }
+          .wish-list .heading .share ul li a.facebook {
+            color: #3c5a98; }
+          .wish-list .heading .share ul li a.twitter {
+            color: #1ea1f2; }
+          .wish-list .heading .share ul li a.pinterest {
+            color: #bd081b; }
+          .wish-list .heading .share ul li a.link {
+            color: #555; }
+  .wish-list .more .row {
+    margin: 0px; }
+    .wish-list .more .row .column {
+      padding: 0px; }
+      .wish-list .more .row .column .container {
+        width: 100%; }
+      .wish-list .more .row .column .banner {
+        margin: 27px 10px 10px 10px; }
+      .wish-list .more .row .column.left .banner {
+        margin-right: 0px; }
+      .wish-list .more .row .column.right .banner {
+        margin-left: 0px; }
+
+/* responsiveness */
+@media (max-width: 1200px) {
+  .more .row .column.left {
+    display: none; }
+
+  .more .row .column.right {
+    display: none; } }
+/* /responsiveness */
+
+/*# sourceMappingURL=style.css.map */

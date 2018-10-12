@@ -1,0 +1,32 @@
+/*fonts*/
+/*colors*/
+/*text*/
+/*backgrounds*/
+/*border*/
+/*social*/
+.join .modal-header {
+  padding: 10px 15px 0px 15px;
+  border: none; }
+.join .modal-body {
+  overflow: hidden;
+  padding-bottom: 20px; }
+  .join .modal-body label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .join .modal-body .secondary-action {
+    float: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .join .modal-body .secondary-action a {
+      display: block; }
+      .join .modal-body .secondary-action a.inline-block {
+        display: inline-block; }
+  .join .modal-body .submit-btn {
+    float: right; }
+  .join .modal-body .actions {
+    margin-top: 20px; }
+    .join .modal-body .actions .forgot-password {
+      margin-bottom: 15px;
+      color: #333; }
+    .join .modal-body .actions a:hover {
+      color: #77b353; }
+
+/*# sourceMappingURL=style.css.map */

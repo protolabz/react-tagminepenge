@@ -1,0 +1,233 @@
+@import '../../../../public/styles/variables';
+
+.product-group {
+  padding-top: 25px;
+  .row {
+	margin: 0px;
+	.column {
+	  padding: 0px;
+	  .container {
+		width: 100%;
+	  }
+	  .banner {
+		margin: 10px;
+	  }
+	  &.left {
+		.banner {
+		  margin-right: 0px;
+		  position: fixed;
+		  width: 16%;
+		}
+	  }
+	  &.right {
+		.banner {
+		  margin-left: 0px;
+		  position: fixed;
+		  width: 16%;
+		}
+	  }
+	  .categories {
+		border-right: 1px solid $border-color;
+		padding-left: 60px;
+		ul {
+		  li {
+			list-style: none;
+			a {
+			  display: block;
+			  padding: 10px 20px 10px 20px;
+			  font-size: 16px;
+			  font-weight: bold;
+			  color: $brand-black;
+			  &:hover {
+				color: $primary-color;
+			  }
+			  &.selected {
+				color: $primary-color;
+			  }
+			}
+			.sub-categories {
+			  a {
+				padding: 10px 10px 10px 30px;
+				font-weight: normal;
+				font-family: $helvetica-font;
+			  }
+			}
+		  }
+		}
+	  }
+	  .category-wise {
+		.category-title {
+		  text-align: center;
+		  font-size: 25px;
+		  font-weight: bold;
+		  margin-top: 10px;
+		}
+		.category-description {
+		  font-family: $helvetica-font;
+		  font-size: 12px;
+		  line-height: 30px;
+		  padding-bottom: 20px;
+		  margin-bottom: 20px;
+		  border-bottom: 1px solid $border-color;
+		}
+		.price-range {
+
+		}
+		.products {
+		  .container {
+			width: 100%;
+			padding:0;
+			.row{
+			  .col-md-4{
+				padding-left: 10px;
+				padding-right: 10px;
+			  }
+			}
+			.card {
+			  .card-header {
+				.product-title {
+				}
+			  }
+			  .card-body {
+				.product-image {
+				  .image {
+					height: 252px;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+  &.category-gadgets{
+	.category-title{
+	  background: linear-gradient(to bottom, #3B9C9C 0, #008080 100%);
+	  color: #FFFFFF;
+	  width: 215px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+  &.category-oplevelsesgaver{
+	.category-title{
+	  background: linear-gradient(to bottom, #E8A317 0, #AF7817 100%);
+	  color: #FFFFFF;
+	  width: 222px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+  &.category-mad-og-drikke{
+	.category-title{
+	  background: linear-gradient(to bottom, #347C17 0, #254117 100%);
+	  color: #FFFFFF;
+	  width: 215px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+  &.category-ting-til-hjemmet{
+	.category-title{
+	  background: linear-gradient(to bottom, #B6B6B4 0, #6D7B8D 100%);
+	  color: #FFFFFF;
+	  width: 260px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+  &.category-gave-til-hende{
+	.category-title{
+	  background: linear-gradient(to bottom, #AF5653 0, #D1403D 100%);
+	  color: #FFFFFF;
+	  width: 250px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+  &.category-gave-til-ham{
+	.category-title{
+	  background: linear-gradient(to bottom, #56A5EC 0, #06559C 100%);
+	  color: #FFFFFF;
+	  width: 200px;
+	  margin: auto;
+	  margin-top: 50px;
+	  border-radius: 6px;
+	}
+  }
+}
+
+/* responsiveness */
+@media (min-width: 1500px) {
+  .product-group  .row .column.left .banner{
+	width:230px;
+  }
+  .product-group  .row .column.right .banner{
+	width:230px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product-group  .row .column.left{
+	display: none;
+  }
+  .product-group  .row .column.right{
+	display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .product-group .container .column .categories {
+	display: none;
+  }
+}
+
+@media (max-width: 520px) {
+
+}
+/* /responsiveness */
+
+.category-gadgets .column .category-wise .category-title{
+  background: linear-gradient(to bottom, #1569C7 0, #1569C7 100%);
+  color: #FFFFFF;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.category-experiences .column .category-wise .category-title{
+  background: linear-gradient(to bottom, #E8A317 0, #E8A317 100%);
+  color: #FFFFFF;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.category-food-and-drink .column .category-wise .category-title{
+  background: linear-gradient(to bottom, #347C17 0, #347C17 100%);
+  color: #FFFFFF;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.category-others .column .category-wise .category-title{
+  background: linear-gradient(to bottom, #e97103 0, #d06503 100%);
+  color: #FFFFFF;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+@media (max-width: 767px){
+  .AboutText{
+	margin: 0px 10px !important;
+  }
+}
+

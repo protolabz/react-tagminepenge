@@ -1,0 +1,43 @@
+@import '../../../../public/styles/variables';
+
+.contact-us{
+  padding-top:50px;
+  .form{
+	width:70%;
+	margin:auto;
+	.title{
+	  font-size: 32px;
+	  margin-bottom: 10px;
+	}
+	.title-text{
+	  font-size:20px;
+	  margin-bottom: 20px;
+	  text-align: center;
+	}
+	form{
+	  background:$light-bg;
+	  border-radius: 4px;
+	  border:1px solid $border-color;
+	  padding:20px;
+	  overflow: hidden;
+	  .btn{
+		margin-top: 10px;
+	  }
+	}
+  }
+  p.title{
+	text-align: center;
+  }
+}
+.app {
+  textarea {
+	overflow:hidden;
+  }
+} 
+
+.sendBtn{
+  border-radius: 10px;
+  //background-color: #77b353;
+  //border-color: #77b353;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+}

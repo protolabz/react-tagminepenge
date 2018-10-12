@@ -1,0 +1,50 @@
+.step-two {
+  background: #f1f1f1;
+  padding: 50px; }
+  .step-two img {
+    width: 571px;
+    margin: 0 auto;
+    display: block; }
+  .step-two .form {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 15px 15px 15px;
+    margin-top: 30px;
+    min-height: 400px;
+    overflow: hidden; }
+    .step-two .form .submit-btn {
+      width: 100%;
+      margin-top: 60px;
+      padding: 8px; }
+  .step-two .tips {
+    background-color: #f1f2de;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    padding: 15px;
+    float: right; }
+    .step-two .tips img {
+      width: 30px;
+      float: left;
+      margin-top: 16px;
+      margin-left: -6px; }
+    .step-two .tips h3 {
+      font-size: 18px;
+      text-decoration: underline;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-weight: normal; }
+    .step-two .tips p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 25px;
+      font-family: sans-serif; }
+  .step-two .preview {
+    text-align: center; }
+    .step-two .preview .card {
+      width: 80%;
+      margin: 20px auto auto auto; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+/*fonts*/
+/*colors*/
+/*text*/
+/*backgrounds*/
+/*border*/
+/*social*/
+.testimonials {
+  width: 75%;
+  margin: auto; }
+  .testimonials .item {
+    border: 1px solid #77b353;
+    border-radius: 16px;
+    padding: 20px 210px 20px 20px;
+    height: 205px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1); }
+    .testimonials .item .image {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      background: #f7f7f7;
+      display: block;
+      position: absolute;
+      right: 12px;
+      top: 12px; }
+    .testimonials .item .text {
+      height: 140px;
+      font-size: 16px;
+      font-weight: 200; }
+
+/*# sourceMappingURL=style.css.map */

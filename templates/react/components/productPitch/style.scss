@@ -1,0 +1,110 @@
+@import '../../../../public/styles/variables.scss';
+
+.product-pitch{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  .content{
+	.item{
+	  .title{
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 10px;
+	  }
+	  &.get-started{
+		padding:50px;
+		.description{
+		  width: 50%;
+		  margin: 10px auto 20px auto;
+		  font-size: 18px;
+		  font-weight: 300;
+		}
+	  }
+	  &.working {
+		padding:20px;
+		background-color: #ececec;
+		.container{
+		  width:1200px;
+		  margin:auto;
+		}
+		.title{
+		  color: #5b5b5b;
+		  font-weight: bold;
+		  font-size: 28px;
+		  margin-bottom: 10px;
+		}
+		.sub-item{
+		  padding: 20px;
+		  .label{
+			font-size: 18px;
+			color: #5b5b5b;
+			margin:20px 0px;
+			display: block;
+		  }
+		  .description{
+			font-size: 18px;
+		  }
+		}
+	  }
+	  &.preview{
+		padding:50px;
+		img{
+		  width:500px;
+		}
+		.description{
+		  width: 50%;
+		  margin: 10px auto 20px auto;
+		  font-size: 18px;
+		  font-weight: 300;
+		}
+	  }
+	  &.stats {
+		padding:20px 20px 30px 20px;
+		background-color: #ececec;
+		.title{
+		  color: #5b5b5b;
+		  font-size: 24px;
+		  font-weight: bold;
+		  margin-top: 10px;
+		  margin-bottom: 25px;
+		}
+		.value{
+		  color:$primary-color;
+		  font-size: 30px;
+		  font-weight: bold;
+		  letter-spacing: -2px;
+		}
+		.text{
+		  font-size:18px;
+		  font-weight:300;
+		}
+	  }
+	  &.testimonials{
+		padding:20px;
+		border-bottom:1px solid $border-color;
+		.title{
+		  color: $primary-color;
+		  font-size: 24px;
+		  font-weight: bold;
+		  margin-top: 10px;
+		  margin-bottom: 25px;
+		}
+		button{
+		  margin-top: 20px;
+		}
+	  }
+	  &.faqs{
+		padding:20px;
+		text-align:left;
+		.title{
+		  text-align:center;
+		  margin-bottom:20px;
+		}
+	  }
+	  img{
+		width:100px;
+		display: block;
+		margin:auto;
+	  }
+	}
+  }
+}

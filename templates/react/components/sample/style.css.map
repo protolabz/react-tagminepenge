@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;AAIT,UAAU;AAQV,QAAQ;AAIR,eAAe;AAIf,UAAU;AAGV,UAAU",
+"sources": ["../../../../public/styles/variables.scss"],
+"names": [],
+"file": "style.css"
+}

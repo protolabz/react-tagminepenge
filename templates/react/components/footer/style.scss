@@ -1,0 +1,65 @@
+@import '../../../../public/styles/variables.scss';
+
+.footer {
+  padding: 40px 0px 0px 0px;
+  margin-top: 100px;
+  background-color: $light-bg;
+  text-align: center;
+  ul {
+	li {
+	  list-style: none;
+	  display: inline-block;
+	  margin-right: 10px;
+	  a {
+		font-family: $helvetica-font;
+		font-size: 14px;
+		color: $brand-black;
+		line-height: 28px;
+		&:hover {
+		  color: $primary-color;
+		}
+	  }
+	}
+  }
+  .social{
+	a{
+	  font-size: 30px;
+	  &.facebook{
+		&:hover{
+		  color:$facebook-color;
+		}
+	  }
+	  &.twitter{
+		&:hover{
+		  color:$twitter-color;
+		}
+	  }
+	  &.pinterest{
+		&:hover{
+		  color:$pinterest-color;
+		}
+	  }
+	}
+  }
+  .copyright{
+	font-size: 12px;
+	font-weight: 200;
+	padding: 10px;
+	margin-top: 30px;
+	border-top:1px solid $border-color;
+	letter-spacing: 1px;
+  }
+}
+
+/* responsiveness */
+@media (max-width: 520px) {
+  .footer {
+	.column {
+	  padding: 0px;
+	  margin-bottom: 10px;
+	}
+  }
+}
+
+/* /responsiveness */
+

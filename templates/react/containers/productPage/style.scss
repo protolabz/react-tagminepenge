@@ -1,0 +1,225 @@
+@import '../../../../public/styles/variables';
+
+.product-page {
+  padding-top: 25px;
+  .carousel-inner{
+	.item{
+	  img{
+		border: 1px solid #ccc;
+	  }
+	}
+  }
+  .row {
+	margin: 0px;
+	.column {
+	  padding: 0px;
+	  .container {
+		width: 100%;
+		padding: 0;
+		.row {
+		  .col-md-4 {
+			padding-left: 10px;
+			padding-right: 10px;
+		  }
+		}
+		&.filters {
+		  padding: 30px 0px 20px 6px;
+		}
+	  }
+	  .banner {
+		margin: 10px;
+	  }
+	  &.left {
+		.banner {
+		  margin-right: 0px;
+		  position: fixed;
+		  width: 16%;
+		}
+	  }
+	  &.right {
+		.banner {
+		  margin-left: 0px;
+		  position: fixed;
+		  width: 16%;
+		}
+	  }
+	}
+  }
+  .more-text{
+	padding:20px 10px;
+	font-weight: bold;
+  }
+  .product {
+	margin: 10px;
+	.column {
+	  .product-details {
+		padding-left:10px;
+		.product-title {
+		  font-size: 30px;
+		  margin-bottom: 8px;
+		  font-weight: bold;
+		}
+		.product-description {
+		  font-family: $helvetica-font;
+		  line-height: 24px;
+		  margin-bottom: 8px;
+		}
+		.product-price {
+		  font-size: 30px;
+		  margin-bottom: 12px;
+		}
+		.product-actions {
+		  .save-btn {
+			margin-left: 5px;
+			text-transform: uppercase;
+		  }
+		  .checkout-btn{
+			text-transform: uppercase;
+		  }
+		}
+		.share {
+		  margin-top: 10px;
+		  ul {
+			li {
+			  display: inline-block;
+			  margin-right: 8px;
+			  a {
+				font-size: 35px;
+				&.facebook {
+				  color: $facebook-color;
+				}
+				&.twitter {
+				  color: $twitter-color;
+				}
+				&.pinterest {
+				  color: $pinterest-color;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+}
+
+/* responsiveness */
+@media (min-width: 1500px) {
+  .product-page .row .column.left .banner{
+	width:230px;
+  }
+  .product-page .row .column.right .banner{
+	width:230px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product-page .row .column.left{
+	display: none;
+  }
+  .product-page .row .column.right{
+	display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .product-page {
+	font-weight: bold;
+	padding-top: 0px;
+	.product {
+	  .column {
+		padding: 20px;
+		.carousel-indicators {
+		  width: inherit;
+		}
+	  }
+	}
+  }
+}
+.socialMediaRow{}
+.socialMediaRow>div{}
+@media (max-width: 767px) {
+  .socialMediaRow {
+	padding-top: 3px !important;
+	display: flex !important;
+  }
+  .socialMediaRow > div {
+	padding-left: 2px;
+	padding-right: 2px;
+  }
+}
+@media (max-width: 520px) {
+
+}
+/* /responsiveness */
+.productBtn{
+  margin-top: -570px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+  border-radius: 10px;
+  margin-left: 330px;
+  z-index: 9 !important;
+  position: relative;
+  height: 40px;
+  width: 76px;
+  font-size: 20px !important;
+  
+}
+
+@media only screen and (max-device-width : 321px) {
+  .productBtn{
+	margin-top: -415px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+	border-radius: 10px;
+	margin-left: 182px;
+	z-index: 9 !important;
+	position: relative;
+  }
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 359px) {
+  .productBtn{
+	margin-top: -458px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+	border-radius: 10px;
+	margin-left: 220px;
+	z-index: 9 !important;
+	position: relative;
+  }
+}
+@media only screen and (min-device-width : 360px) and (max-device-width : 376px) {
+  .productBtn{
+	margin-top: -458px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+	border-radius: 10px;
+	margin-left: 220px;
+	z-index: 9 !important;
+	position: relative;	
+  }
+  
+}
+@media only screen and (min-device-width : 380px) and (max-device-width : 414px) {
+  .productBtn{
+	margin-top: -520px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+	border-radius: 10px;
+	margin-left: 270px;
+	z-index: 9 !important;
+	position: relative;
+  }
+  
+}
+@media only screen and (min-device-width : 415px) and (max-device-width : 769px) {
+  .productBtn{
+	margin-top: -570px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px -19px 0px -16px inset;
+	border-radius: 10px;
+	margin-left: 470px;
+	z-index: 9 !important;
+	position: relative;
+  }
+
+}
+
+.socialMediaRow{
+  margin-left: 8px !important;
+}

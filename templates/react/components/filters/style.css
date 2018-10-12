@@ -1,0 +1,18 @@
+.filters {
+  padding: 20px 25px; }
+  .filters ul {
+    padding-left: 4px; }
+    .filters ul li {
+      display: inline-block;
+      margin-right: 5px; }
+      .filters ul li a {
+        display: block;
+        padding: 5px 10px;
+        font-size: 18px;
+        color: #4168ff;
+        border-radius: 4px; }
+      .filters ul li.active a {
+        background: #416dff;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

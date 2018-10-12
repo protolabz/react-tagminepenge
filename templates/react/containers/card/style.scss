@@ -1,0 +1,151 @@
+@import '../../../../public/styles/variables';
+
+.card {
+  width: 100%;
+  margin-bottom: 30px;
+  .card-header {
+	.product-title {
+	  margin-bottom: 2px;
+	  text-align: center;
+	  font-weight:bold;
+	  margin-top: 0;
+	  font-size: 18px;
+	  color: $link-grey-color;
+	  display: block;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  &:hover{
+		color: #77b353;
+	  }
+	}
+  }
+  .card-body {
+	.product-image {
+	  position: relative;
+	  .save-btn {
+		display: none;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		padding: 5px;
+		width: 76px;
+		font-size: 20px;
+	  }
+	  .image {
+		display: block;
+		width: 100%;
+		height: 252px;
+		background-color: $thumbnail-bg;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		border: 1px solid #ccc;
+	  }
+	  &:hover {
+		.save-btn {
+		  display: block;
+		}
+	  }
+	}
+	.product-text {
+	  text-align: justify;
+	  margin-top: 5px;
+	  margin-bottom: 25px;
+	  font-family: $helvetica-font;
+	  p {
+		display: block;
+		display: -webkit-box;
+		max-width: 400px;
+		height: 85px;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 17px;
+		-webkit-line-clamp: 6;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	  }
+	}
+  }
+  .card-footer {
+	display: flex;
+	justify-content: space-between;
+	.product-range {
+	  color: $link-grey-color;
+	  font-size: 16px;
+	  letter-spacing: 1px;
+	  .saves {
+		font-size: 14px;
+		i {
+		  color: $link-grey-color;
+		  &.glyphicon-heart{
+			color: #F52887;
+		  }
+		  &:hover {
+			color: #F52887;
+		  }
+		}
+	  }
+	}
+	.product-action {
+	  text-align: right;
+	  .checkout-btn{
+		display: block;
+		margin-top: -20px;
+		margin-bottom: 4px;
+		.checkout{
+		  text-transform: uppercase;
+		  font-family: "Trebuchet MS ", Helvetica, sans-serif !important;
+		}
+	  }
+	}
+  }
+  .share {
+	ul {
+	  margin: 0px;
+	  li {
+		display: inline-block;
+		margin-right: 5px;
+		a {
+		  font-size: 22px;
+		  line-height: 22px;
+		  &.facebook {
+			color: $facebook-color;
+		  }
+		  &.twitter {
+			color: $twitter-color;
+		  }
+		  &.pinterest {
+			color: $pinterest-color;
+		  }
+		}
+	  }
+	}
+  }
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+  .card {
+	margin-bottom: 30px;
+  }
+}
+
+/* /responsiveness */
+.socialMediaRow{}
+.socialMediaRow>div{}
+@media (max-width: 767px){
+  .socialMediaRow{
+	padding-top: 3px !important;
+	display: flex !important;
+  }
+  .socialMediaRow>div{
+	padding-left: 2px;
+	padding-right: 2px;
+  }
+  .AboutText{
+	margin: 0px 10px;
+  }
+  
+}
